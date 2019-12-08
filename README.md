@@ -1,6 +1,6 @@
 # Electro Converter
 
-### Electro Converter is an Electron-based Web Application which allows some Mathematical Conversions like Temperature, Speed, Light, and Weight. Currently this calculator only supports only Four Conversions, More Features will be added in future builds.
+### Electro Converter is an Electron-based Desktop Application which allows some Mathematical Conversions like Temperature, Speed, Light, and Weight. Currently this calculator only supports only Four Conversions, More Features will be added in future builds.
 
 ### NOTE - Electro Converter is under Development (Installer for Windows will available soon).
 
