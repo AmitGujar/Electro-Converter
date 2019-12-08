@@ -1,0 +1,155 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS Calculator</title>
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap" rel="stylesheet">
+
+    <!-- application style -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- application script -->
+    <script src="./script.js"></script>
+
+    <!-- bootstrap js -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+        integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+    <!-- jquery added -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+        integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous">
+    </script>
+
+    <!-- bootstrap 2 -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous">
+    </script>
+</head>
+
+<body style="background-color: rgb(17, 17, 17);">
+    <div class="background-container">
+        <div class="main-container">
+            <h1 class="display-5" style="text-align: center;">ELECTRO CONVERTER</h1>
+            <div class="row">
+                <div class="card">
+                    <div class="weight-card" style="text-align: center;">WEIGHT</div>
+                    <p>
+                        <p>
+                            <input id="inputPounds" type="number" placeholder=" Pounds"
+                                oninput="weightConverter(this.value)" onchange="weightConverter(this.value)" required>
+                        </p>
+                        <div class="weightkg">
+                            <div class=" btn btn-primary">Kilograms = <span id="outputKilograms"></span></div>
+
+                        </div>
+                        <div class="weightgm">
+                            <div class=" btn btn-primary">Grams = <span id="outputGrams"></span></div>
+                        </div>
+
+                    </p>
+                </div>
+                <div class="card">
+                    <div class="temp-card" style="text-align: center;">TEMPERATURE</div>
+                    <p>
+                        <p>
+                            <input id="inputF" type="number" placeholder=" Fahrenheit"
+                                oninput="tempConverter(this.value)" onchange="tempConverter(this.value)" required>
+                        </p>
+                        <div class="tempc">
+                            <div class=" btn btn-danger">Celcius = <span id="outputCelcius"></span></div>
+
+                        </div>
+                        <div class="tempk">
+                            <div class=" btn btn-danger">Kelvin = <span id="outputKelvin"></span></div>
+                        </div>
+
+                    </p>
+                </div>
+                <div class="card">
+                    <div class="speed-card" style="text-align: center;">SPEED</div>
+                    <p>
+                        <p>
+                            <input id="inputK" type="number" placeholder=" KMH" oninput="speedConverter(this.value)"
+                                onchange="speedConverter(this.value)" required>
+                        </p>
+                        <div class="speedMiles">
+                            <div class=" btn btn-success">Miles = <span id="outputMiles"></span></div>
+
+                        </div>
+                        <div class="speedmach">
+                            <div class=" btn btn-success">Mach = <span id="outputMach"></span></div>
+                        </div>
+
+                    </p>
+                </div>
+                <div class="card">
+                    <div class="energy-card" style="text-align: center;">ENERGY</div>
+                    <p>
+                        <p>
+                            <input id="inputEnergy" type="number" placeholder=" KiloJoule"
+                                oninput="energyConverter(this.value)" onchange="energyConverter(this.value)" required>
+                        </p>
+                        <div class="energyJ">
+                            <div class=" btn btn-success" style="background-color: rgb(230, 131, 19);">Joule = <span
+                                    id="outputJoule"></span>
+                            </div>
+
+                        </div>
+                        <div class="energyC">
+                            <div class=" btn btn-success" style="background-color: rgb(230, 131, 19);">Calorie = <span
+                                    id="outputCalorie"></span></div>
+                        </div>
+
+                    </p>
+                </div>
+                <div class="card">
+                    <div class="power-card" style="text-align: center;">POWER</div>
+                    <p>
+                        <p>
+                            <input id="inputPower" type="number" placeholder=" Kilowatt"
+                                oninput="powerConverter(this.value)" onchange="powerConverter(this.value)" required>
+                        </p>
+                        <div class="powerW">
+                            <div class=" btn btn-success" style="background-color: rgb(180, 0, 111);">Watt = <span
+                                    id="outputWatt"></span>
+                            </div>
+
+                        </div>
+                        <div class="powerMw">
+                            <div class=" btn btn-success" style="background-color: rgb(180, 0, 111);">Megawatt = <span
+                                    id="outputMegawatt"></span></div>
+                        </div>
+
+                    </p>
+                </div>
+                <div class="card">
+                    <div class="area-card" style="text-align: center;">AREA</div>
+                    <p>
+                        <p>
+                            <input id="inputArea" type="number" placeholder=" Acre" oninput="areaConverter(this.value)"
+                                onchange="areaConverter(this.value)" required>
+                        </p>
+                        <div class="areaSq">
+                            <div class=" btn btn-success" style="background-color: rgb(126, 47, 1);">SqMtr = <span
+                                    id="outputSqmtr"></span>
+                            </div>
+
+                        </div>
+                        <div class="areaH">
+                            <div class=" btn btn-success" style="background-color: rgb(126, 47, 1);">Hectare = <span
+                                    id="outputHectare"></span></div>
+                        </div>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
