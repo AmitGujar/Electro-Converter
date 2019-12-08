@@ -4,12 +4,12 @@
 
 ### NOTE - Electro Converter is under Development (Installer for Windows will available soon).
 
-# Screenshot
+## Screenshot
 
 <img src="index/img/screenshot.png"
      alt="Application Screenshot"/>
 
-### **Do you want to contribute?**
+## **Do you want to contribute?**
 
 1. Fork this repo.
 2. Clone to local machine.
