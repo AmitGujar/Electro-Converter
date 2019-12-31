@@ -1,0 +1,185 @@
+.background-container {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #ddd3dd;
+    align-content: center;
+}
+
+.card {
+    width: 320px;
+    height: 150px;
+    margin-top: 40;
+    margin-left: 56;
+    color: black;
+    font-size: 24px;
+    align-content: center;
+}
+
+.weight-card {
+    background-color: rgb(18, 116, 245);
+}
+
+.temp-card {
+    background-color: rgb(241, 85, 85);
+}
+
+.speed-card {
+    background-color: rgb(22, 202, 37);
+}
+
+.energy-card {
+    background-color: rgb(230, 131, 19);
+}
+
+.power-card {
+    background-color: rgb(180, 0, 111);
+}
+
+.area-card {
+    background-color: rgb(148, 71, 26);
+}
+
+#inputPounds {
+    margin-left: 10;
+    width: 90%;
+    position: relative;
+    display: flex;
+    border-radius: 5px 5 5 5px;
+    outline: none;
+    border: 1.5px solid black;
+    height: auto;
+    font-size: medium;
+}
+
+.weightkg {
+    width: min-content;
+    margin-left: 10;
+}
+
+.weightgm {
+    width: 20px;
+    margin-left: 150;
+    margin-top: -11.8%;
+}
+
+.tempc {
+    width: min-content;
+    margin-left: 10;
+}
+
+.tempk {
+    width: 20px;
+    margin-left: 150;
+    margin-top: -11.8%;
+}
+
+#inputF {
+    margin-left: 10;
+    width: 90%;
+    position: relative;
+    display: flex;
+    border-radius: 5px 5 5 5px;
+    outline: none;
+    border: 1.5px solid black;
+    height: auto;
+    font-size: medium;
+}
+
+#inputK {
+    margin-left: 10;
+    width: 90%;
+    position: relative;
+    display: flex;
+    border-radius: 5px 5 5 5px;
+    outline: none;
+    border: 1.5px solid black;
+    height: auto;
+    font-size: medium;
+}
+
+#inputEnergy {
+    margin-left: 10;
+    width: 90%;
+    position: relative;
+    display: flex;
+    border-radius: 5px 5 5 5px;
+    outline: none;
+    border: 1.5px solid black;
+    height: auto;
+    font-size: medium;
+}
+
+#inputPower {
+    margin-left: 10;
+    width: 90%;
+    position: relative;
+    display: flex;
+    border-radius: 5px 5 5 5px;
+    outline: none;
+    border: 1.5px solid black;
+    height: auto;
+    font-size: medium;
+}
+
+#inputArea {
+    margin-left: 10;
+    width: 90%;
+    position: relative;
+    display: flex;
+    border-radius: 5px 5 5 5px;
+    outline: none;
+    border: 1.5px solid black;
+    height: auto;
+    font-size: medium;
+}
+
+.energyJ {
+    width: min-content;
+    margin-left: 10;
+}
+
+.energyC {
+    width: 20px;
+    margin-left: 150;
+    margin-top: -11.8%;
+}
+
+.areaSq {
+    width: min-content;
+    margin-left: 10;
+}
+
+.areaH {
+    width: 20px;
+    margin-left: 150;
+    margin-top: -11.8%;
+}
+
+.powerW {
+    width: min-content;
+    margin-left: 10;
+}
+
+.powerMw {
+    width: 20px;
+    margin-left: 150;
+    margin-top: -11.8%;
+}
+
+.speedMiles {
+    width: min-content;
+    margin-left: 10;
+}
+
+.speedMach {
+    width: 20px;
+    margin-left: 150;
+    margin-top: -11.8%;
+}
+
+.row {
+    margin-left: 10;
+    margin-right: 10;
+    align-content: center;
+    display: block;
+    animation-duration: inherit;
+}
