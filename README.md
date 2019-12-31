@@ -2,7 +2,11 @@
 
 ### Electro Converter is an Electron-based Desktop Application which allows some Mathematical Conversions like Temperature, Speed, Light, and Weight. Currently this calculator only supports only Four Conversions, More Features will be added in future builds.
 
-### NOTE - Electro Converter is under Development (Installer for Windows will available soon).
+### Note - Installer for Mac will available in future.
+
+### How To Install
+
+Clone this repo, navigate windows_installer folder and click on electro setup to install this on Windows.
 
 ## Screenshot
 
