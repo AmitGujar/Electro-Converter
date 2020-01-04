@@ -6,7 +6,7 @@
 
 ### How To Install
 
-Clone this repo, navigate windows_installer folder and click on electro setup to install this on Windows.
+For Windows [Download Setup](https://github.com/AmitGujar/Electro-Converter/blob/master/windows_installer/Converter.msi)
 
 ## Screenshot
 
