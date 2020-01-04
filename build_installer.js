@@ -23,7 +23,6 @@ const msiCreator = new MSICreator({
   manufacturer: "Amit Gujar",
   version: "1.0.0",
   publisher: "Amit Gujar",
-
   // Configure installer User Interface
   ui: {
     chooseDirectory: true
