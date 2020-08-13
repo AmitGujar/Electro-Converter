@@ -6,7 +6,7 @@
 
 ### How To Install
 
-For Windows [Download Setup](https://drive.google.com/file/d/1NxtBgcKlPBs0kVcrk4gjdFClZW6IT-eu/view?usp=sharing)
+For Windows [Download Setup]https://github.com/AmitGujar/Electro-Converter/tree/master/windows_installer/Converter.msi)
 
 ## Screenshot
 
