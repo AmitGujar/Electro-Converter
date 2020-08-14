@@ -12,11 +12,3 @@
 
 <img src="index/img/screenshot.png"
      alt="Application Screenshot"/>
-
-## **Do you want to contribute?**
-
-1. Fork this repo.
-2. Clone to local machine.
-3. Add you own feature and ideas.
-4. Commit all changes to develop branch.
-5. Send pull request to me!.
