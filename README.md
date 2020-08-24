@@ -6,7 +6,7 @@
 
 ### How To Install
 
-### Download the setup from windows_installer folder to install app.
+### Check release to download installer.
 
 ## Screenshot
 
