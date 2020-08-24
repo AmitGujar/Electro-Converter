@@ -6,7 +6,7 @@
 
 ### How To Install
 
-### Check release to download installer.
+### Check Releases to download installer.
 
 ## Screenshot
 
