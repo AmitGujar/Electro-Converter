@@ -15,5 +15,17 @@
   },
   "dependencies": {
     "electron-packager": "^15.1.0"
+  },
+  "build": {
+    "appId": "com.electro.app",
+    "productName": "Electro",
+    "target": "NSIS",
+    "directory": {
+      "output": "build"
+    },
+    "nsis": {
+      "allowToChangeInstallationDirectory": true,
+      "onClick": false
+    }
   }
 }
