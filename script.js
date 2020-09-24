@@ -7,8 +7,8 @@ function createWindow() {
     width: 1175,
     height: 697,
     webPreferences: {
-      nodeIntegration: true
-    }
+      nodeIntegration: true,
+    },
   });
 
   win.loadFile("index.html");

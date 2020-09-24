@@ -12,3 +12,4 @@ Check Releases to download installer.
 
 <img src="index/img/screenshot.png"
      alt="Application Screenshot"/>
+np
